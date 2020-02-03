@@ -1,0 +1,15 @@
+suite_namespace: frontend\tests\unit
+actor: UnitTester
+bootstrap: false
+modules:
+    enabled:
+        - Yii2:
+            part: [orm, email, fixtures]
+            cleanup: false
+        - DB:
+            dsn: 'mysql:host=localhost; dbname=restaurante_teste'
+            user: 'root'
+            password: ''
+            cleanup: false
+
+        - Asserts

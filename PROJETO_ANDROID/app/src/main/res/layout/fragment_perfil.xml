@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".vistas.PerfilFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/PerfilNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            android:hint="Nome" />
+
+        <EditText
+            android:id="@+id/PerfilTelemovel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            android:hint="Telemovel" />
+
+        <EditText
+            android:id="@+id/PerfilMorada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="46dp"
+            android:hint="Morada" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <Button
+            android:id="@+id/PerfilAtualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Atualizar Perfil" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+        <Button
+            android:id="@+id/MinhasEncomendas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minhas Encomendas"/>
+        <Button
+            android:id="@+id/MinhasReservas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minhas Reservas" />
+
+
+    </LinearLayout>
+
+
+    </FrameLayout>
